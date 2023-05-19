@@ -1,12 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-<h1>oi</h1>
-</body>
-</html>
+@extends('layouts.app')
+
+{{-- @section('header')
+@parent
+    <x-nav>
+
+    </x-nav>
+@endsection --}}
+
+@section('content')
+    <x-main>
+        <h1>este e o conteudo principal</h1>
+    </x-main>
+@endsection
+
+{{-- @section('footer')
+@parent
+    <x-footer>
+
+    </x-footer>
+@endsection --}}
+
+

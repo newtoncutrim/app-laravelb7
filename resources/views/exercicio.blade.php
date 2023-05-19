@@ -12,7 +12,7 @@
     <img src="{{$url}}{{$i}}" width="100px " height="100px">
     @endfor --}}
 
-    
+    <x-outro><p>oi</p></x-outro>
 
 </body>
 </html>

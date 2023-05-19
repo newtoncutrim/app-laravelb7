@@ -18,3 +18,4 @@ Route::get('/comp', [SiteController::class, 'componente']);
 
 Route::get('/layout', [SiteController::class, 'layout']);
 
+Route::get('/layout2', [SiteController::class, 'layout2']);
